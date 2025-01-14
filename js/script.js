@@ -1,4 +1,4 @@
-const API_URL = window.location.href.replace(window.location.pathname, '/products');
+const API_URL = '/products';
 
 function renderProducts(products) {
   const container = document.getElementById("product-list");
