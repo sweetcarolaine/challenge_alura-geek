@@ -1,7 +1,4 @@
-const API_URL = process.env.NODE_ENV === 'production'
-  ? 'https://challenge-alura-geek-thais.vercel.app/products'  // Production URL
-  : 'http://localhost:3000/products';
-
+const API_URL = import.meta.env.API_URL || "http://localhost:3000/products";
 
 function renderProducts(products) {
   const container = document.getElementById("product-list");
