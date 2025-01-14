@@ -61,3 +61,5 @@ Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o
 Thaís Bezerra 
 [LinkedIn](https://www.linkedin.com/in/thaisbezerra/) | [GitHub](https://github.com/sweetcarolaine)
 
+### Badge: 
+<img src="imagens/Badge-AluraGeek.png" alt="Badge Alura" width="200" />
