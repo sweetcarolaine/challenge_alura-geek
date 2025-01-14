@@ -1,85 +1,74 @@
-AluraGeek
+# 💻 AluraGeek
 
-Projeto desenvolvido para simular uma loja virtual de produtos geek.
+Bem-vindo(a) ao **AluraGeek**, um e-commerce desenvolvido para o desafio da Alura, focado em produtos geek. 🚀
 
-📋 Sobre o Projeto
-O Alura Geek é um projeto focado no aprendizado de HTML, CSS, e JavaScript, com funcionalidades de integração a uma API simulada utilizando o JSON Server.
+---
 
-O objetivo é criar uma plataforma onde o usuário possa:
+## 📜 Descrição do Projeto
 
-Visualizar produtos disponíveis.
-Adicionar novos produtos.
-Excluir produtos existentes.
-🛠️ Tecnologias Utilizadas
-As principais tecnologias utilizadas no projeto incluem:
+O **AluraGeek** é um projeto frontend que simula um site de vendas de produtos geek. Ele foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript**, com integração de uma API simulada através do **JSON Server**.
 
-HTML5 - Estrutura do site.
-CSS3 - Estilização e layout.
-JavaScript (ES6) - Funcionalidades dinâmicas.
-JSON Server - Simulação de API para o backend.
-Git e GitHub - Controle de versão e repositório.
-🚀 Funcionalidades
-Visualização de Produtos:
-Renderiza os produtos cadastrados de forma dinâmica na interface.
+---
 
-Adicionar Produtos:
-Um formulário permite adicionar novos produtos ao JSON Server.
+## 🛠️ Funcionalidades
 
-Excluir Produtos:
-Os produtos podem ser excluídos diretamente da interface.
+- **Visualização de Produtos:** Exibe uma lista dinâmica de produtos cadastrados.
+- **Adição de Produtos:** Permite cadastrar novos produtos na base de dados.
+- **Exclusão de Produtos:** Remove produtos existentes diretamente da interface.
+- **Responsividade:** Interface adaptada para diferentes tamanhos de tela.
 
-📂 Estrutura de Arquivos
-plaintext
-Copiar código
-AluraGeek/
-├── db.json              # Banco de dados JSON para o JSON Server
-├── index.html           # Página principal
-├── styles.css           # Arquivo de estilos
-├── js/
-│   └── script.js        # Lógica do frontend
-├── imagens/             # Imagens dos produtos
-└── README.md            # Documentação do projeto
-🧑‍💻 Como Executar o Projeto
-1. Clonar o Repositório
-bash
-Copiar código
-git clone https://github.com/seu-usuario/alura-geek.git
-cd alura-geek
-2. Instalar o JSON Server
-Certifique-se de que o Node.js está instalado em seu computador. Depois, execute:
+---
 
-bash
-Copiar código
+## ⚙️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **JSON Server**
+- **Git e GitHub**
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/sweetcarolaine/challenge_alura-geek.git
+   
+2. Navegue até a pasta do projeto:
+  ```bash
+cd challenge_alura-geek
+
+3. Instale o JSON Server (caso ainda não tenha):
+  ```bash
 npm install -g json-server
-3. Iniciar o Servidor
-Na pasta raiz do projeto, rode:
 
-bash
-Copiar código
+4. Inicie o servidor:
+  ```bash
 json-server --watch db.json
-O servidor será iniciado e estará disponível em:
-http://localhost:3000
+Abra o arquivo index.html no navegador.
 
-4. Abrir o Projeto no Navegador
-Abra o arquivo index.html no navegador ou utilize uma extensão como o Live Server do VS Code.
+---
 
-📸 Screenshots
-Página Inicial
+## 📂 Estrutura do Projeto
 
-Adicionando Produtos
+  ```bash
+├── db.json         # Base de dados simulada
+├── index.html      # Página principal
+├── styles.css      # Estilos do projeto
+├── js/
+│   └── script.js   # Lógica e interações
+├── imagens/        # Imagens dos produtos
 
-🛡️ Licença
-Este projeto é desenvolvido como parte de um desafio da Alura e está disponível sob a licença MIT.
+---
+## 📝 Licença
+Este projeto está sob a licença MIT. Para mais informações, acesse o arquivo LICENSE.
 
-🤝 Contribuição
-Contribuições são bem-vindas! Para contribuir:
+--
 
-Faça um fork do projeto.
-Crie uma branch para sua feature (git checkout -b feature/nova-feature).
-Commit suas mudanças (git commit -m 'Adiciona nova feature').
-Faça um push para a branch (git push origin feature/nova-feature).
-Abra um Pull Request.
-💌 Contato
+##👩‍💻 Desenvolvido por
 Thaís Bezerra
-Email: tcmoura@outlook.com
-GitHub: sweetcarolaine
+LinkedIn | GitHub
+
+
+
