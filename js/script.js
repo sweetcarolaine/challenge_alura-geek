@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.API_URL || "http://localhost:3000/products";
+const API_URL = window.location.href.replace(window.location.pathname, '/products');
 
 function renderProducts(products) {
   const container = document.getElementById("product-list");
