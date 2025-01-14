@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header, .header {
+  background-color: #000; 
+  color: #ff9900; 
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+body {
+ 
+  background-color: #333; 
+  color: #fff; 
+  line-height: 1.6;
+}
+
+/* Seção de produtos */
+#product-list {
+  padding: 2rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.add-product, .my-products {
+  background-color: #222; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.my-products {
+  flex: 3;
+  min-width: 60%;
+}
+
+.add-product {
+  flex: 1;
+  min-width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Formulário de adicionar produto */
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-product input {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background-color: #555;
+  color: white;
+}
+
+/* Botões */
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff6600; 
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: #cc5200;
+}
+
+/* Produtos */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #444;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background-color: #cc5200;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cc5200;
+}
+
+/* Rodapé */
+footer {
+  background-color: #000;
+  color: #ff9900;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .my-products {
+    order: 2;
+    width: 100%;
+  }
+
+  .add-product {
+    order: 1;
+    width: 100%;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

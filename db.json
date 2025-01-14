@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stormtrooper",
+      "price": 200,
+      "image": "./imagens/stormtrooper.jpg"
+    },
+    {
+      "id": "2",
+      "name": "R2-D2 Star Wars Miniatura",
+      "price": 160,
+      "image": "./imagens/r2d2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Caneca Senhor dos Anéis",
+      "price": 29.9,
+      "image": "./imagens/caneca.jpg"
+    }
+  ]
+}
