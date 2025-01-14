@@ -1,25 +1,19 @@
-# 💻 AluraGeek
+# AluraGeek 
 
-Bem-vindo(a) ao **AluraGeek**, um e-commerce desenvolvido para o desafio da Alura, focado em produtos geek. 🚀
+**AluraGeek** é um e-commerce desenvolvido para o desafio da Alura, focado na venda de produtos geek. O projeto é implementado com HTML, CSS e JavaScript, e utiliza o **JSON Server** para simular uma API de backend.
 
----
+## Descrição do Projeto
 
-## 📜 Descrição do Projeto
+Este repositório contém o código-fonte do site **AluraGeek**, um e-commerce fictício onde os usuários podem visualizar, adicionar e excluir produtos geek. O projeto é uma demonstração de como criar um frontend interativo e dinâmico com integração de uma API simulada, garantindo uma experiência de usuário completa.
 
-O **AluraGeek** é um projeto frontend que simula um site de vendas de produtos geek. Ele foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript**, com integração de uma API simulada através do **JSON Server**.
+## ✨ Funcionalidades
 
----
+- **Visualização de Produtos:** Exibe dinamicamente uma lista de produtos cadastrados.
+- **Adição de Produtos:** Permite adicionar novos produtos à base de dados do sistema.
+- **Exclusão de Produtos:** Oferece a funcionalidade de remover produtos diretamente da interface.
+- **Responsividade:** O layout é adaptável para diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis, tablets e desktops.
 
-## 🛠️ Funcionalidades
-
-- **Visualização de Produtos:** Exibe uma lista dinâmica de produtos cadastrados.
-- **Adição de Produtos:** Permite cadastrar novos produtos na base de dados.
-- **Exclusão de Produtos:** Remove produtos existentes diretamente da interface.
-- **Responsividade:** Interface adaptada para diferentes tamanhos de tela.
-
----
-
-## ⚙️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
@@ -27,48 +21,40 @@ O **AluraGeek** é um projeto frontend que simula um site de vendas de produtos 
 - **JSON Server**
 - **Git e GitHub**
 
----
-
 ## 🚀 Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/sweetcarolaine/challenge_alura-geek.git
-   
-2. Navegue até a pasta do projeto:
-  ```bash
-cd challenge_alura-geek
+1. **Clone o repositório:**
+``` git clone https://github.com/sweetcarolaine/challenge_alura-geek.git```
 
-3. Instale o JSON Server (caso ainda não tenha):
-  ```bash
-npm install -g json-server
+2. **Navegue até a pasta do projeto:**
+``` cd challenge_alura-geek```
 
-4. Inicie o servidor:
-  ```bash
-json-server --watch db.json
-Abra o arquivo index.html no navegador.
+3. **Instale o JSON Server (caso não tenha instalado):**
+``` npm install -g json-server```
 
----
+4. **Inicie o servidor JSON:**
+
+``` json-server --watch db.json```
+
+5. **Abra o arquivo index.html no seu navegador.**
+
+## 🌟 Demonstração 
+(Se possível, adicione um link para uma demonstração ao vivo ou um gif mostrando o funcionamento do projeto.)
 
 ## 📂 Estrutura do Projeto
-
-  ```bash
+```
 ├── db.json         # Base de dados simulada
 ├── index.html      # Página principal
 ├── styles.css      # Estilos do projeto
 ├── js/
 │   └── script.js   # Lógica e interações
 ├── imagens/        # Imagens dos produtos
-
----
+```
 ## 📝 Licença
-Este projeto está sob a licença MIT. Para mais informações, acesse o arquivo LICENSE.
 
---
+Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
-##👩‍💻 Desenvolvido por
-Thaís Bezerra
-LinkedIn | GitHub
-
-
+## 👩‍💻 Desenvolvido por
+Thaís Bezerra 
+[LinkedIn](https://www.linkedin.com/in/thaisbezerra/) | [GitHub](https://github.com/sweetcarolaine)
 
