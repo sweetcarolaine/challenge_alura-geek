@@ -43,12 +43,15 @@ Este repositório contém o código-fonte do site **AluraGeek**, um e-commerce f
 
 ## 📂 Estrutura do Projeto
 ```
-├── db.json         # Base de dados simulada
-├── index.html      # Página principal
-├── styles.css      # Estilos do projeto
+├── imagens/        # Imagens dos produtos
 ├── js/
 │   └── script.js   # Lógica e interações
-├── imagens/        # Imagens dos produtos
+├── db.json         # Base de dados simulada
+├── index.html      # Página principal
+├── package.json    # Configuração Node Packages
+├── server.js       # Servidor node utilizando express
+├── vercel.json     # Configuração do Vercel
+├── styles.css      # Estilos do projeto
 ```
 ## 📝 Licença
 

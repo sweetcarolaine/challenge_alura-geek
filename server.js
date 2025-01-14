@@ -1,11 +1,20 @@
+const express = require('express');
 const jsonServer = require('json-server');
-const server = jsonServer.create();
+const path = require('path');
+const app = express();
+
+app.use(express.static(path.join(__dirname)));
+
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
-server.use(middlewares);
-server.use(router);
+app.use(middlewares);
+app.use(router);
 
-server.listen(3000, () => {
-  console.log('JSON Server is running');
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
+
+module.exports = (req, res) => {
+  app(req, res); // Use the Express app for Vercel
+};
