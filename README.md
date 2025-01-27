@@ -43,15 +43,37 @@ Este repositório contém o código-fonte do site **AluraGeek**, um e-commerce f
 
 ## 📂 Estrutura do Projeto
 ```
-├── imagens/        # Imagens dos produtos
-├── js/
-│   └── script.js   # Lógica e interações
-├── db.json         # Base de dados simulada
-├── index.html      # Página principal
-├── package.json    # Configuração Node Packages
-├── server.js       # Servidor node utilizando express
-├── vercel.json     # Configuração do Vercel
-├── styles.css      # Estilos do projeto
+├── node_modules/           # Dependências do projeto
+├── public/
+│   └── assets/
+│       ├── thumbnail/      # Thumbnails dos vídeos
+│       └── logo.svg        # Logotipo do projeto
+├── src/
+│   ├── components/         # Componentes reutilizáveis
+│   │   ├── banner/         # Banner principal
+│   │   ├── card/           # Cartões de categorias
+│   │   ├── category/       # Listagem e gerenciamento de categorias
+│   │   ├── footer/         # Rodapé do site
+│   │   ├── header/         # Cabeçalho do site
+│   │   ├── loading/        # Componentes de carregamento
+│   │   ├── modal/          # Modal de edição de vídeos
+│   │   └── videocard/      # Cartões para exibição de vídeos
+│   ├── pages/              # Páginas do projeto
+│   │   ├── FormPage.jsx    # Página do formulário
+│   │   ├── Home.jsx        # Página inicial
+│   │   ├── HomePage.jsx    # Página principal da aplicação
+│   │   ├── NewVideo.jsx    # Página para adicionar novos vídeos
+│   │   └── VideoList.scss  # Estilos da lista de vídeos
+│   ├── App.jsx             # Configuração principal do React
+│   ├── Global.scss         # Estilos globais
+│   └── Main.jsx            # Arquivo principal para inicialização
+├── .gitignore              # Arquivo para ignorar arquivos no Git
+├── db.json                 # Base de dados simulada
+├── index.html              # Página HTML principal
+├── package.json            # Configuração do Node e pacotes
+├── vite.config.js          # Configuração do Vite
+├── restore_db.js           # Script para restaurar o banco de dados
+├── README.md               # Documentação do projeto
 ```
 ## 📝 Licença
 
